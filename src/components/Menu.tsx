@@ -7,7 +7,7 @@ const mealsData = [
     price: "8.99",
     description:
       "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
-    image: "src/images/mac-and-cheese.jpg",
+    image: "/images/mac-and-cheese.jpg",
   },
   {
     id: "m2",
@@ -15,7 +15,7 @@ const mealsData = [
     price: "12.99",
     description:
       "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
-    image: "src/images/margherita-pizza.jpg",
+    image: "/images/margherita-pizza.jpg",
   },
   {
     id: "m3",
@@ -23,7 +23,7 @@ const mealsData = [
     price: "7.99",
     description:
       "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
-    image: "src/images/caesar-salad.jpg",
+    image: "/images/caesar-salad.jpg",
   },
   {
     id: "m4",
@@ -31,7 +31,7 @@ const mealsData = [
     price: "10.99",
     description:
       "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
-    image: "src/images/spaghetti-carbonara.jpg",
+    image: "/images/spaghetti-carbonara.jpg",
   },
   {
     id: "m5",
@@ -39,7 +39,7 @@ const mealsData = [
     price: "9.99",
     description:
       "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
-    image: "src/images/veggie-burger.jpg",
+    image: "/images/veggie-burger.jpg",
   },
   {
     id: "m6",
@@ -47,7 +47,7 @@ const mealsData = [
     price: "10.99",
     description:
       "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
-    image: "src/images/grilled-chicken-sandwich.jpg",
+    image: "/images/grilled-chicken-sandwich.jpg",
   },
   {
     id: "m7",
@@ -55,7 +55,7 @@ const mealsData = [
     price: "17.99",
     description:
       "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
-    image: "src/images/steak-frites.jpg",
+    image: "/images/steak-frites.jpg",
   },
   {
     id: "m8",
@@ -63,7 +63,7 @@ const mealsData = [
     price: "15.99",
     description:
       "An assortment of fresh sushi rolls including California, Spicy Tuna, and Eel Avocado.",
-    image: "src/images/sushi-roll-platter.jpg",
+    image: "/images/sushi-roll-platter.jpg",
   },
   {
     id: "m9",
@@ -71,7 +71,7 @@ const mealsData = [
     price: "13.99",
     description:
       "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
-    image: "src/images/chicken-curry.jpg",
+    image: "/images/chicken-curry.jpg",
   },
   {
     id: "m10",
@@ -79,7 +79,7 @@ const mealsData = [
     price: "11.99",
     description:
       "A hearty bowl filled with quinoa, roasted veggies, avocado, and a tahini dressing.",
-    image: "src/images/vegan-buddha-bowl.jpg",
+    image: "/images/vegan-buddha-bowl.jpg",
   },
   {
     id: "m11",
@@ -87,7 +87,7 @@ const mealsData = [
     price: "19.99",
     description:
       "A Spanish delicacy filled with saffron-infused rice, shrimp, mussels, and chorizo.",
-    image: "src/images/beef-tacos.jpg",
+    image: "/images/beef-tacos.jpg",
   },
   {
     id: "m12",
@@ -95,7 +95,7 @@ const mealsData = [
     price: "8.99",
     description:
       "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
-    image: "src/images/pancake-stack.jpg",
+    image: "/images/pancake-stack.jpg",
   },
   {
     id: "m13",
@@ -103,7 +103,7 @@ const mealsData = [
     price: "12.99",
     description:
       "A warming bowl of ramen with miso broth, tender pork, soft-boiled egg, and green onions.",
-    image: "src/images/miso-ramen.jpg",
+    image: "/images/miso-ramen.jpg",
   },
   {
     id: "m14",
@@ -111,7 +111,7 @@ const mealsData = [
     price: "9.99",
     description:
       "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream.",
-    image: "src/images/beef-tacos.jpg",
+    image: "/images/beef-tacos.jpg",
   },
   {
     id: "m15",
@@ -119,7 +119,7 @@ const mealsData = [
     price: "5.99",
     description:
       "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce.",
-    image: "src/images/chocolate-brownie.jpg",
+    image: "/images/chocolate-brownie.jpg",
   },
   {
     id: "m16",
@@ -127,7 +127,7 @@ const mealsData = [
     price: "14.99",
     description:
       "A creamy soup made from lobster stock, aromatic vegetables, and a touch of brandy.",
-    image: "src/images/lobster-bisque.jpg",
+    image: "/images/lobster-bisque.jpg",
   },
   {
     id: "m17",
@@ -135,7 +135,7 @@ const mealsData = [
     price: "13.99",
     description:
       "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
-    image: "src/images/mushroom-risotto.jpg",
+    image: "/images/mushroom-risotto.jpg",
   },
   {
     id: "m18",
@@ -143,7 +143,7 @@ const mealsData = [
     price: "11.99",
     description:
       "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
-    image: "src/images/eggplant-parmesan.jpg",
+    image: "/images/eggplant-parmesan.jpg",
   },
   {
     id: "m19",
@@ -151,7 +151,7 @@ const mealsData = [
     price: "6.99",
     description:
       "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
-    image: "src/images/lemon-cheesecake.jpg",
+    image: "/images/lemon-cheesecake.jpg",
   },
   {
     id: "m20",
@@ -159,7 +159,7 @@ const mealsData = [
     price: "8.99",
     description:
       "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
-    image: "src/images/falafel-wrap.jpg",
+    image: "/images/falafel-wrap.jpg",
   },
 ];
 export interface Meal {
