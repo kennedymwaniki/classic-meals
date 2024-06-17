@@ -162,8 +162,7 @@ const mealsData = [
     image: "src/images/falafel-wrap.jpg",
   },
 ];
-
-interface Meal {
+export interface Meal {
   id: string;
   name: string;
   price: string;

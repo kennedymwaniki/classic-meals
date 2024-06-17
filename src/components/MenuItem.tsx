@@ -1,4 +1,11 @@
-const MenuItem = ({ meal }) => {
+import React from "react";
+import { Meal } from "./Menu";
+
+interface MenuItemProps {
+  meal: Meal;
+}
+
+const MenuItem: React.FC<MenuItemProps> = ({ meal }) => {
   return (
     <div>
       <div className="mealcard">
@@ -12,7 +19,6 @@ const MenuItem = ({ meal }) => {
           </div>
         </div>
       </div>
-      {/* <img src={meal.image} alt="" /> */}
     </div>
   );
 };
