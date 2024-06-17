@@ -12,7 +12,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ meal }) => {
         <img src={meal.image} alt="" className="meal-image" />
         <div className="info">
           <h2>{meal.name}</h2>
-          <p className="price">Price: ${meal.price}</p>
+          <p className="price">${meal.price}</p>
           <p>{meal.description}</p>
           <div className="button">
             <button className="btn">Add to cart</button>
