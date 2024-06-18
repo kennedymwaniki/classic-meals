@@ -99,11 +99,7 @@ h2 {
   }
   .header {
     color: yellow;
-    display: flex;
-    justify-content: space-between;
-    /* padding: 10px 25px; */
-    /* margin-right: 5px; */
-    align-items: center;
+    margin-right: 0;
   }
 
   .mealcard {
