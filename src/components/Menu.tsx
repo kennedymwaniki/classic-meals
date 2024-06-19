@@ -1,5 +1,4 @@
 import MenuItem from "./MenuItem";
-
 const mealsData = [
   {
     id: "m1",

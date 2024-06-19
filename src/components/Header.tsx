@@ -7,7 +7,7 @@ const Header = () => {
         <img src="/images/logo.jpg" alt="" className="img" />
         <p className="meals">Classic meals restaurant</p>
       </div>
-      <p className="cart">Cart (3)</p>
+      <p className="cart">Cart</p>
     </div>
   );
 };
