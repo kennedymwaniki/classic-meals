@@ -1,33 +1,34 @@
 import React from "react";
 import { Meal } from "./Menu";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem, getCart } from "../cart/cartSlice";
 
 interface MenuItemProps {
   meal: Meal;
 }
 
 interface cart {
-  id: string;
+  foodId: string;
   name: string;
   price: string;
   description: string;
 }
-type carts = [];
 
 const MenuItem: React.FC<MenuItemProps> = ({ meal }) => {
-  const cart: carts = [];
+  const dispatch = useDispatch();
+  const cart = useSelector(getCart);
   const { id, name, price, description } = meal;
   const newItem: cart = {
-    id,
+    foodId: id,
     name,
     price,
     description,
   };
 
   function handleAddToCart() {
-    cart.push(newItem);
-    console.log(cart.length);
+    dispatch(addItem(newItem));
   }
-  // console.log(cart);
+  console.log("CartItems:", cart.length);
   return (
     <div>
       <div className="mealcard">
@@ -42,10 +43,6 @@ const MenuItem: React.FC<MenuItemProps> = ({ meal }) => {
             </button>
           </div>
         </div>
-      </div>
-
-      <div>
-        <p>Your cart has({cart.length})</p>
       </div>
     </div>
   );
