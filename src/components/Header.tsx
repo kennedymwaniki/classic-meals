@@ -1,8 +1,11 @@
 import { useSelector } from "react-redux";
 import "../index.css";
 import { getCart } from "../cart/cartSlice";
+import { HiShoppingCart } from "react-icons/hi2";
+
 const Header = () => {
   const cart = useSelector(getCart);
+  console.log(cart);
   const quantity = cart.length;
   return (
     <div className="header">
@@ -10,7 +13,9 @@ const Header = () => {
         <img src="/images/logo.jpg" alt="" className="img" />
         <p className="meals">Classic meals restaurant</p>
       </div>
-      <p className="cart">Cart {quantity}</p>
+      <p className="cart">
+        <HiShoppingCart />({quantity})
+      </p>
     </div>
   );
 };

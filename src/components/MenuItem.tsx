@@ -1,14 +1,16 @@
 import React from "react";
 import { Meal } from "./Menu";
-import { useDispatch, useSelector } from "react-redux";
-import { addItem, getCart } from "../cart/cartSlice";
+import { useDispatch } from "react-redux";
+import { addItem } from "../cart/cartSlice";
+import{ CartItem }from "../cart/cartSlice";
 
 interface MenuItemProps {
   meal: Meal;
 }
 
-interface cart {
-  foodId: string;
+export interface cart {
+  quantity: number;
+  id: string;
   name: string;
   price: string;
   description: string;
@@ -16,10 +18,11 @@ interface cart {
 
 const MenuItem: React.FC<MenuItemProps> = ({ meal }) => {
   const dispatch = useDispatch();
-  const cart = useSelector(getCart);
+  // const cart = useSelector(getCart);
   const { id, name, price, description } = meal;
-  const newItem: cart = {
-    foodId: id,
+  const newItem: CartItem = {
+    quantity: 1,
+    foodId:id,
     name,
     price,
     description,
@@ -28,7 +31,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ meal }) => {
   function handleAddToCart() {
     dispatch(addItem(newItem));
   }
-  console.log("CartItems:", cart.length);
+  // console.log("CartItems:", cart.length);
   return (
     <div>
       <div className="mealcard">
